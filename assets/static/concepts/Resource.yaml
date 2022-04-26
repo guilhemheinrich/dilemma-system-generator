@@ -1,0 +1,28 @@
+reference: resource 
+abstract: false
+label: Resource
+inherits: 
+  - _id
+definition: | 
+  Une resource du royaume
+attributes:
+  - name: name 
+    label: Nom
+    definition: |
+      Nom de la resource
+    type: string
+    required: true
+  - name: description
+    label: Description
+    type: text
+    definition: |
+      Description de la resource
+validation:
+## Graph related information
+graph-options:
+  color:
+    background: '#7DCEA0'
+    highlight: '#1E8449'
+graph-label: name
+
+  
