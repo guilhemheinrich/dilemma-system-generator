@@ -1,0 +1,28 @@
+reference: realm 
+abstract: false
+label: Royaume
+inherits: 
+  - _id
+definition: | 
+  Un royaume
+attributes:
+  - name: name 
+    label: Nom
+    definition: |
+      Nom du royaume
+    type: string
+    required: true
+  - name: history
+    label: Histoire
+    type: text
+    definition: |
+      Histoire du royaume
+validation:
+## Graph related information
+graph-options:
+  color:
+    background: '#7DCEA0'
+    highlight: '#1E8449'
+graph-label: name
+
+  

@@ -1,0 +1,19 @@
+{
+  "name": "dilemma-system-generator",
+  "version": "1.0.0",
+  "description": "A graph drawer instance to create dilemma system cards and games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhemheinrich/dilemma-system-generator.git"
+  },
+  "author": "guilhem.heinrich@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhemheinrich/dilemma-system-generator/issues"
+  },
+  "homepage": "https://github.com/guilhemheinrich/dilemma-system-generator#readme"
+}

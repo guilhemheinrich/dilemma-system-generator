@@ -1,0 +1,38 @@
+reference: decree 
+abstract: false
+label: Décret
+inherits: 
+  - _id
+definition: | 
+  Un décret est la trace laissé par une famille au cours des prochaines génération. Il peut être positif ou négatif.
+attributes:
+  - name: name 
+    label: Nom
+    definition: |
+      Nom du décret
+    type: string
+    required: true
+  - name: description
+    label: Description
+    type: text
+    definition: |
+      Description de l'événement lié au décret
+  - name: outcome_type 
+    readonly: true
+    label: Issue
+    type: selectButton
+    definition: |
+      Définie si l'issue de l'événement est positive ou négative
+    values: 
+      - { label: 'Positive', value: 1}
+      - { label: 'Négative', value: 2}
+    default: 1
+validation:
+## Graph related information
+graph-options:
+  color:
+    background: '#7DCEA0'
+    highlight: '#1E8449'
+graph-label: name
+
+  

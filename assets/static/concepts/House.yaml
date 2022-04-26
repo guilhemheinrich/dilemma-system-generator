@@ -1,0 +1,38 @@
+reference: house 
+abstract: false
+label: Maison
+inherits: 
+  - _id
+definition: | 
+  Une maison majeur du royaume.
+attributes:
+  - name: name 
+    label: Nom
+    definition: |
+      Nom de la maison
+    type: string
+    required: true
+  - name: short_description
+    label: Description succinte
+    type: text
+    definition: |
+      Une description succinte de la maison
+  - name: long_description 
+    label: Description complète
+    type: text
+    definition: |
+      Une description plus complète de la maison
+  - name: priority_number
+    label: Priorité
+    type: string
+    definition: |
+      Priorité de la maison en cas d'égalité de prestige
+validation:
+## Graph related information
+graph-options:
+  color:
+    background: '#7DCEA0'
+    highlight: '#1E8449'
+graph-label: name
+
+  

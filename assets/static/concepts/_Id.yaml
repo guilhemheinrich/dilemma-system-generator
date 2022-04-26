@@ -1,0 +1,25 @@
+reference: _id 
+abstract: true
+label: id
+definition: | 
+  Components responsable to unique identification into the database 
+attributes:
+  - name: id 
+    label: id
+    definition: |
+      Identification d'un composant
+    type: string
+    readonly: true
+actions:
+  - type: merge
+    path: 
+    name: generate
+# validation:
+## Graph related information
+# graph-options:
+#   color:
+#     background: '#7DCEA0'
+#     highlight: '#1E8449'
+# graph-label: Identification/Label
+
+  

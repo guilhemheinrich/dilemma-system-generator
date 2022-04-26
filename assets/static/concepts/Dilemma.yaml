@@ -1,0 +1,28 @@
+reference: dilemma 
+abstract: false
+label: Dilemme
+inherits: 
+  - _id
+definition: | 
+  Un dilemme dans la direction du royaume.
+attributes:
+  - name: name 
+    label: Nom
+    definition: |
+      Nom du dilemme
+    type: string
+    required: true
+  - name: description
+    label: Description
+    type: text
+    definition: |
+      Description de l'événement lié au dilemme
+validation:
+## Graph related information
+graph-options:
+  color:
+    background: '#7DCEA0'
+    highlight: '#1E8449'
+graph-label: name
+
+  

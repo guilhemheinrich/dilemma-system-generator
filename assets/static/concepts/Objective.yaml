@@ -1,0 +1,27 @@
+reference: objective 
+abstract: false
+label: Objectif
+inherits: 
+  - _id
+definition: | 
+  Un objectif présent sur le paravent d'une maison
+attributes:
+  - name: name 
+    label: Nom
+    definition: |
+      Nom de l'objectif
+    type: string
+    required: true
+  - name: tick_number 
+    label: Nombre de coche
+    definition: |
+      nombre de fois que la condition doit être respecté
+    type: string
+    required: true
+validation:
+## Graph related information
+graph-options:
+  color:
+    background: '#7DCEA0'
+    highlight: '#1E8449'
+graph-label: name

@@ -1,0 +1,39 @@
+{
+    "graph": {
+        "nodes": {
+          "shape": "box",
+          "borderWidth": 1
+        },
+        "edges": {
+          "arrows": "to",
+          "arrowStrikethrough": true,
+          "smooth": {
+            "roundness": 0.25,
+            "type":"dynamic"
+          },
+          "color": {
+            "color": "black",
+            "highlight": "#848484"
+          }
+        },
+        "physics": { 
+          "enabled": true,
+          "barnesHut": {
+            "gravitationalConstant" : -10000,
+            "avoidOverlap" : 1,
+            "spring constant": 0.1
+          } },
+        "interaction": {
+          "hover": true, 
+          "zoomView": true,
+          "dragView": true,
+          "navigationButtons": true
+        }
+      },
+    "right-panel": {
+        "concepts": "mat-chip",
+        "relationships": "mat-chip",
+        "functions": "mat-chip"
+    },
+    "title-app": "Conception"
+}

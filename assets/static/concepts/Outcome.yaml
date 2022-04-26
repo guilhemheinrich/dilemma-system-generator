@@ -1,0 +1,28 @@
+reference: outcome 
+abstract: false
+label: Résolution
+inherits: 
+  - _id
+definition: | 
+  Une résolution possible d'un dilemme
+attributes:
+  - name: description
+    label: Description
+    type: text
+    definition: |
+      Description de l'événement lié à la résolution du dilemme
+  # - name: realm_effect
+  #   label: Effet sur le royaume
+  #   type: text
+  #   definition: |
+  #     Description de l'événement lié à la résolution du dilemme   
+
+validation:
+## Graph related information
+graph-options:
+  color:
+    background: '#7DCEA0'
+    highlight: '#1E8449'
+graph-label: name
+
+  

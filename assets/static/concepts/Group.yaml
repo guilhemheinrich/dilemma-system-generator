@@ -1,0 +1,17 @@
+reference: group 
+abstract: false
+label: Groupe
+inherits: 
+  - _id
+definition: | 
+  Un groupement de dilemme et autre cartes.
+attributes:
+validation:
+## Graph related information
+graph-options:
+  color:
+    background: '#7DCEA0'
+    highlight: '#1E8449'
+graph-label: id
+
+  
